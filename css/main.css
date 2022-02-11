@@ -2615,3 +2615,24 @@ ul.breadcrumb li:last-child {
     margin-bottom: 10px;
   }
 }
+body {
+  background-image: url("/images/background.jpg");
+  background-size: cover;
+}
+img {
+  border-radius: 25px !important;
+}
+.header-inner {
+  border-radius: 35px;
+  height: 230px;
+}
+.sidebar-inner {
+  border-radius: 35px;
+}
+.main-inner {
+  border-radius: 35px;
+  margin: 10px;
+}
+.footer {
+  background-color: #222;
+}
