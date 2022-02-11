@@ -2696,6 +2696,38 @@ a:hover {
   background-color: #0a59f7;
   color: #d2dcee;
 }
+.back-to-home {
+  background: #222;
+  cursor: pointer;
+  opacity: 0.6;
+  position: fixed;
+  z-index: 30;
+  right: 30px;
+  padding: 0 5.25px;
+  bottom: 60px;
+  font-size: 12px;
+  border-radius: 5px;
+  color: #222;
+  background-color: rgba(240,242,244,0.9);
+  backdrop-filter: blur(10px);
+}
+@media (max-width: 991px) {
+  .back-to-home {
+    right: 20px;
+  }
+}
+.back-to-home:hover {
+  opacity: 0.8;
+}
+@media (max-width: 991px) {
+  .back-to-home {
+    opacity: 0.8;
+  }
+}
+.back-to-home:hover {
+  background-color: #0a59f7;
+  color: #d2dcee;
+}
 .footer {
   border-radius: 35px 35px 0px 0px;
   background-color: #222;
