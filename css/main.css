@@ -2634,7 +2634,7 @@ img {
 }
 .main-inner {
   border-radius: 35px;
-  margin: 10px;
+  margin: 10px 0px 10px 0px;
 }
 .footer {
   background-color: #222;
