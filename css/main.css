@@ -2622,9 +2622,12 @@ body {
 img {
   border-radius: 25px !important;
 }
+.site-brand-container {
+  border-radius: 0px 0px 15px 15px;
+}
 .header-inner {
   border-radius: 35px;
-  height: 230px;
+  padding: 0px 0px 15px 0px;
 }
 .sidebar-inner {
   border-radius: 35px;
