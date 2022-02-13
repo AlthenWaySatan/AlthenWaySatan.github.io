@@ -2794,8 +2794,7 @@ a:hover {
 }
 .main-inner {
   border-radius: 35px;
-  margin: 12px;
-  width: auto;
+  margin-top: 12px;
   background-color: rgba(240,242,244,0.9);
   backdrop-filter: blur(10px);
 }
@@ -2859,7 +2858,7 @@ a:hover {
   border-radius: 10px;
 }
 .footer {
-  margin: 12px;
+  margin-top: 12px;
   padding: 0;
 }
 .footer-inner {
