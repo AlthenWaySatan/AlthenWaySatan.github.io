@@ -2739,6 +2739,7 @@ mjx-container[display='true'] + br {
 body {
   background-image: url("/images/background.jpg");
   background-size: cover;
+  background-attachment: fixed;
   height: auto;
 }
 img {
@@ -2852,6 +2853,9 @@ a:hover {
 .back-to-home:hover {
   background-color: #0a59f7;
   color: #d2dcee;
+}
+.current {
+  background-color: #0a59f7 !important;
 }
 .footer {
   margin: 12px;
