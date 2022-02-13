@@ -2795,8 +2795,21 @@ a:hover {
 .main-inner {
   border-radius: 35px;
   margin-top: 12px;
+  padding: 12px;
   background-color: rgba(240,242,244,0.9);
   backdrop-filter: blur(10px);
+}
+.post-block {
+  border-radius: 11px;
+  margin: 12px;
+  padding: 24px;
+  background-color: #f0f2f4;
+  box-shadow: 0.1rem 0.1rem 0.5rem rgba(34,34,34,0.2);
+  box-shadow: 0.15rem 0.15rem 0.75rem rgba(34,34,34,0.2);
+}
+.post-eof {
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 .sidebar-nav {
   font-weight: bold;
@@ -2804,7 +2817,7 @@ a:hover {
 .btn {
   border-radius: 5px;
   color: #222;
-  background-color: rgba(240,242,244,0.9);
+  background-color: rgba(34,34,34,0.1);
   backdrop-filter: blur(10px);
 }
 .btn:hover {
@@ -2853,7 +2866,11 @@ a:hover {
   background-color: #0a59f7;
   color: #d2dcee;
 }
+.pagination {
+  margin: auto;
+}
 .current {
+  margin: auto;
   background-color: #0a59f7 !important;
   border-radius: 10px;
 }
